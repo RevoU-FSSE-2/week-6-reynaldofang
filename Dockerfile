@@ -7,7 +7,6 @@ WORKDIR /app
 # copy package.jsonfor install dependensi
 COPY package*.json ./
 
-
 # Building code for production
 RUN npm install
 
